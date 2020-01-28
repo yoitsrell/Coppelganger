@@ -1,0 +1,63 @@
+.main-image #logo{
+    padding: 80px 60px 60px 60px;
+    text-align: center;
+    background: white;
+    margin: 0 auto;
+    display: block;
+}
+
+.header {
+    background: white;
+    text-align: center;
+    margin: 0px auto;
+    font-size: xx-small;
+    margin-top: 25px;
+    font-size: thin;
+    position: fixed;
+}
+
+#gmail,#images {
+    float: right;
+    margin-top: -1px;
+
+}
+
+#about, #store {
+    float: left;
+    margin-top: -1px;
+}
+
+#gmail {
+    font-size: small;
+    margin-right: 10px;
+}
+
+#images {
+    
+    font-size: small;
+}
+
+#about {
+    font-size: small;
+    margin-right: 10px;
+}
+
+#store {
+    font-size: small;
+}
+
+#searchme{
+    margin: 393px, 1018px, 376px 422px;
+    width: 500px;
+    text-align: center;
+}
+
+.search {
+    text-align: center;
+}
+
+.button {
+    text-align: center;
+    padding-top: 20px;
+    margin-bottom: 2000px;
+}
