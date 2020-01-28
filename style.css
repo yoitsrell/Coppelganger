@@ -1,19 +1,35 @@
-.main-image #logo{
-    padding: 80px 60px 60px 60px;
+.main-image 
+
+#logo {
+    padding: 160px 60px 0px 60px;
     text-align: center;
     background: white;
     margin: 0 auto;
+    margin-bottom: 20px;
     display: block;
 }
 
-.header {
-    background: white;
+.header-left{
+    float: left;
+    color: black;
     text-align: center;
-    margin: 0px auto;
-    font-size: xx-small;
-    margin-top: 25px;
-    font-size: thin;
-    position: fixed;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px thin;
+    line-height: 25px;
+    border-radius: 4px;
+    margin-top: auto;
+}
+
+.header-right{
+    float: right;
+    color: black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
 }
 
 #gmail,#images {
@@ -49,15 +65,43 @@
 #searchme{
     margin: 393px, 1018px, 376px 422px;
     width: 500px;
+    height: 20px;
     text-align: center;
+    border-radius: round;
+    
 }
 
 .search {
     text-align: center;
+    border-radius: round;
 }
 
 .button {
     text-align: center;
-    padding-top: 20px;
+    padding-top: 5px;
     margin-bottom: 2000px;
+}
+
+.footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0%;
+    left: 0%;
+    background-color:#F2F2F2;
+    color:black;
+}
+
+.footer-left {
+    text-align: left;
+    display: inline;
+}
+
+.footer-right {
+    text-align: right;
+    display: inline;
+}
+
+h6 {
+    display: inline;
+    padding-right: 185px;
 }
